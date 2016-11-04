@@ -29,7 +29,6 @@ public class TarefaBuscaNome implements Runnable {
                 }
                 numeroLinha++;
             }
-            scanner.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
